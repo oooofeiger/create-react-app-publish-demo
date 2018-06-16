@@ -27,7 +27,7 @@ class CompanyGraph extends React.Component {
       this_.drawGraph(this_.state.dataSource)
     });
 
-    axios('http://localhost:3000/api/showInvest?key=sdfsdfyhut478h654j').then(res => {
+    axios('http://graphcompany.feiger.com.cn/api/showInvest?key=sdfsdfyhut478h654j').then(res => {
 
       if (res.status === 200) {
         // res.json().then((data) => {

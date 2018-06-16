@@ -13,7 +13,7 @@ class CompanyInfo extends React.Component {
   };
 
   componentDidMount(){
-    axios('http://localhost:3000/api/baseInfo?key=sdfsdfyhut478h654j').then(res=>{
+    axios('http://graphcompany.feiger.com.cn/api/baseInfo?key=sdfsdfyhut478h654j').then(res=>{
       if(res.status === 200){
         // res.json().then((data)=>{
           const data = res.data;

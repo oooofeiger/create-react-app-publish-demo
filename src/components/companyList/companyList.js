@@ -13,7 +13,7 @@ class CompanyList extends React.Component {
   };
 
   componentDidMount(){
-    axios('http://localhost:3000/api/list?page_number=1').then(res=>{
+    axios('http://graphcompany.feiger.com.cn/api/list?page_number=1').then(res=>{
       if(res.status === 200){
         // res.json().then((data)=>{
           const data = res.data;
