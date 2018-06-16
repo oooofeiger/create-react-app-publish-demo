@@ -12,12 +12,12 @@
     }
   ],
   "deploy": {
-    "porduction": {
+    "production": {
       "user": "manager",
       "host": ["120.79.60.217"],
       "ref": "origin/master",
       "repo": "git@github.com:oooofeiger/create-react-app-publish-demo.git",
-      "path": "/www/GraphCompany/production",
+      "path": "/home/manager/www/GraphCompany/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "env": {
         "NODE_ENV": "production"
