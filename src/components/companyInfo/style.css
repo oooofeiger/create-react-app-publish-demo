@@ -1,0 +1,27 @@
+h3{
+  margin: 20px auto 10px;
+  font-weight: 700;
+}
+table .th{
+  background: #F2F9FC;
+}
+
+table td,th{
+    padding: 12px 10px 12px 10px;
+    border: #E4EEF6 1px solid;
+    word-break: break-all;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222;
+}
+.ant-table-thead>tr>th{
+  background: #F2F9FC;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.ant-table-tbody>tr>td{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
