@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "graphcompany",
-      "script": "server.js",
+      "script": "build/server.js",
       "env": {
         "COMMEN_VARIABLE": "true"
       },
