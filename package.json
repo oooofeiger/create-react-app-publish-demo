@@ -22,11 +22,5 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "proxy": {
-    "/api": {
-      "target": "http://127.0.0.1:5000/",
-      "changeOrigin": true
-    }
   }
 }
