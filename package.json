@@ -6,7 +6,7 @@
     "@antv/g6": "^2.0.1",
     "@antv/g6-plugins": "^1.0.9",
     "antd": "^3.6.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "babel-plugin-import": "^1.8.0",
     "d3": "4.0.0",
     "express": "^4.16.3",
